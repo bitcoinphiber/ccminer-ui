@@ -2,14 +2,14 @@
 {
     class DefaultConfig : IConfig
     {
-        public string Intensity => "19.5";
+        public string Intensity => "0";
 
-        public string Username => "6zqMHRmL3UsFcuhCkAiff8NPUYDG3s7DbJ";
+        public string Username => "pHQbs2WC4jwqEAq3s6yJp4MZf3pBLWwrPPrZrHPDZCeTR47PXK5hFsd1cfBHoccdBMNYSqZ5q6B2otZL";
         public string Password => "x";
-        public string PoolUrl => "stratum+tcp://ftc.p2pool.leblancnet.us:19327";
+        public string PoolUrl => "stratum+tcp://testnetpool.bitcoinphiber.com:3333";
 
         public int StatsAvg => 60;
 
-        public string Algorithm => "FeatherCoin";
+        public string Algorithm => "Bitcoin Phiber";
     }
 }

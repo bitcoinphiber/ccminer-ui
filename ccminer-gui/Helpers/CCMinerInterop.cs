@@ -52,6 +52,7 @@ namespace ccminer_gui
                 Algorithm.Create("nist5", "TalkCoin"),
                 Algorithm.Create("penta", "Joincoin / Pentablake"),
                 Algorithm.Create("phi", "LUXCoin"),
+                Algorithm.Create("phiber", "Bitcoin Phiber"),
                 Algorithm.Create("polytimos", "Polytimos"),
                 Algorithm.Create("quark", "Quarkcoin"),
                 Algorithm.Create("qubit", "Qubit"),

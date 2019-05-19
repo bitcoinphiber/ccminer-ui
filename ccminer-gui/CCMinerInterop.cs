@@ -51,6 +51,7 @@ namespace ccminer_gui
                 Algorithm.Create("nist5", "TalkCoin"),
                 Algorithm.Create("penta", "Joincoin / Pentablake"),
                 Algorithm.Create("phi", "LUXCoin"),
+                Algorithm.Create("phiber", "Bitcoin Phiber"),
                 Algorithm.Create("polytimos", "Polytimos"),
                 Algorithm.Create("quark", "Quarkcoin"),
                 Algorithm.Create("qubit", "Qubit"),
@@ -92,7 +93,7 @@ namespace ccminer_gui
 
         public void Run(IConfig config)
         {
-            _minerCli.Open(Path.Combine(Environment.CurrentDirectory, "ccminer-x64.exe"), new string[] {
+            _minerCli.Open(Path.Combine(Environment.CurrentDirectory, "ccminer.exe"), new string[] {
                 "-N",
                 config.StatsAvg.ToString(),
                 "-i",
