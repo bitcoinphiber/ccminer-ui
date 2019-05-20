@@ -289,6 +289,7 @@ namespace ccminer_gui
 
             chart2.ChartAreas[0].AxisX.Minimum = scroll.ToOADate();
             chart2.ChartAreas[0].AxisX.Maximum = DateTime.Now.AddMinutes(1).ToOADate();
+            chart2.ChartAreas[0].RecalculateAxesScale();
 
             if (_hashrateSeries.Points.Count > 720)
             {
